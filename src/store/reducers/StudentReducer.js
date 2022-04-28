@@ -8,7 +8,7 @@ const initialState = [
 ]
 
 export default function StudentReducer(state=initialState, action) {
-    console.log("Reducer getting the data");
+    
     let newData = action.payload
     switch (action.type) {
 
